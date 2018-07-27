@@ -5,9 +5,9 @@ import cv2
 import math
 import numpy as np
 import sys
-sys.path.append('../..')
-import preprocessing.east.lanms as lanms
-from preprocessing.east.icdar import restore_rectangle
+sys.path.append('..')
+import east.lanms as lanms
+from east.icdar import restore_rectangle
 
 def resize_image(im, max_side_len=2400):
     '''

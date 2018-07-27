@@ -1,0 +1,4 @@
+This is a pipeline consisting of  EAST and CRNN models.
+The code and weights are from the githib repos https://github.com/argman/EAST and https://github.com/MaybeShewill-CV/CRNN_Tensorflow
+Download the weights from the repos mentioned above and run the programs
+This does the preprocessing for the SAN-DY model

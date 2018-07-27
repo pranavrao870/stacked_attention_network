@@ -1,8 +1,7 @@
 import sys
-sys.path.append('..')
 
-from preprocessing.ocr import process_images
-from preprocessing.ocr import sort_by_pos
+from ocr import process_images
+from ocr import sort_by_pos
 
 def test_box_detection(checkpoint_path, crnn_path):
     process_images('test_data', ['train'], [range(1, 201)], checkpoint_path, crnn_path)

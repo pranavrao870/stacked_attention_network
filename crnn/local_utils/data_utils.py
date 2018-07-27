@@ -13,8 +13,8 @@ import tensorflow as tf
 import os
 import os.path as ops
 import sys
-sys.path.append('../../..')
-from preprocessing.crnn.local_utils import establish_char_dict
+sys.path.append('../..')
+from crnn.local_utils import establish_char_dict
 
 
 class FeatureIO(object):

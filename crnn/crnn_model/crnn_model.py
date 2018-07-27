@@ -15,8 +15,8 @@ from tensorflow.contrib import layers as tflayers
 from tensorflow.contrib import rnn
 
 import sys
-sys.path.append('../../../')
-from preprocessing.crnn.crnn_model import cnn_basenet
+sys.path.append('../../')
+from crnn.crnn_model import cnn_basenet
 
 
 class ShadowNet(cnn_basenet.CNNBaseModel):

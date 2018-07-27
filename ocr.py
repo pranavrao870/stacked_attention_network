@@ -4,12 +4,11 @@ import numpy as np
 import os
 
 import sys
-sys.path.append('..')
 
-import preprocessing.east.model as model
-from preprocessing.east.detect_boxes import detect, resize_image, sort_poly
-from preprocessing.crnn.crnn_model.crnn_model import ShadowNet
-from preprocessing.crnn.local_utils import data_utils
+import east.model as model
+from east.detect_boxes import detect, resize_image, sort_poly
+from crnn.crnn_model.crnn_model import ShadowNet
+from crnn.local_utils import data_utils
 
 """
 This will preprocess the whole image into some database

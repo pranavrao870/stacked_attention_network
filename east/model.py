@@ -3,8 +3,8 @@ import numpy as np
 
 from tensorflow.contrib import slim
 import sys
-sys.path.append('../..')
-from preprocessing.east.nets import resnet_v1
+sys.path.append('..')
+from east.nets import resnet_v1
 
 TEXT_SCALE = 512
 
